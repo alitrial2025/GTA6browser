@@ -55,6 +55,6 @@ Browser suites use Playwright and `/usr/bin/chromium`; override with `CHROMIUM_P
 
 ## Deploy
 
-[docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) describes GitHub Pages publishing. The included workflow builds for `/GTA6browser/`; the asset manager handles that subpath. A working GitHub login, repository write access and Pages configured for GitHub Actions are required. Local builds do not publish themselves.
+[docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) describes GitHub Pages publishing. The included workflow builds for `/GTA6browser/`; the asset manager handles that subpath. Repository write access and Pages configured for GitHub Actions are required. The cloud Git connection can supply push authentication independently of GitHub CLI. Local builds do not publish themselves.
 
 [docs/CLOUD_SETUP.md](docs/CLOUD_SETUP.md) describes reusable cloud startup. The earlier procedural city prototype remains available under `?mode=prototype`, with `npm run test:game-browser`. The active campaign is in `src/campaign/`; scene builders and rendering are in `src/scenes/`.
