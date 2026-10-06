@@ -1,0 +1,2 @@
+/* Locally hosted, OFL-licensed display type; game never needs a font CDN. */
+@font-face{font-family:'Barlow Condensed';src:url('/fonts/BarlowCondensed-Bold.ttf') format('truetype');font-weight:600 900;font-display:swap}
